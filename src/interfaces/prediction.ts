@@ -9,7 +9,7 @@ export interface WeatherData
 {
     dt: number,
     temp: TemperatureData,
-    humidity: 81,
+    humidity: number,
     weather: WeatherDescription[];
 }
 export interface TemperatureData
